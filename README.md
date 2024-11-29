@@ -67,7 +67,7 @@ restaurant-page/
 
 ## Live Demo 🌐
 
-[Visit the Restaurant Page Live Demo](https://axyl07.github.io/restaurant-page/) *(Replace with your live demo link if available)*
+[Visit the Restaurant Page Live Demo](https://axyl07.github.io/restaurant-page/) 
 
 ## Contributions 🤝
 
