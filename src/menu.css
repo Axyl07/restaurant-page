@@ -1,4 +1,11 @@
-.container{
+h1{
+    display: flex;
+    justify-content: center;
+}
+.menuContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
     height: fit-content;
     width: fit-content;
     margin: 25px;
@@ -7,7 +14,7 @@
     padding: 20px;
     display: flex;
     gap: 20px;
-    justify-content: center;
+
 }
 .foodItems{
     gap: 25px;
@@ -15,19 +22,30 @@
     flex-wrap: wrap;
     width: fit-content;
     height: fit-content;
+    
 }
+
+
 .burger,.steak,.chicken,.salad{
+    background-color: bisque;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
     align-items: center;
     display: flex;
     flex-direction: column;
-    width: 150px;
-    height: 150px;
+    width: fit-content;
+    height: fit-content;
     border: 5px solid black;
     border-radius: 10px;
     padding: 25px;
     gap: 5px;
+    transition: 0.1s ease-in;
 }
-
+.burger:hover , .steak:hover, .chicken:hover, .salad:hover{
+    cursor: pointer;
+transform: scale(1.05);
+}
 .burgerImg{
     width: 100px;
     height: 100px;

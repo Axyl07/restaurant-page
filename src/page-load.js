@@ -1,10 +1,10 @@
 export default function load() {
     const content = document.querySelector('#content');
     const heading = document.createElement('h1');
-    heading.textContent = "My restaurant";
+    heading.textContent = "Odin's Kitchen";
     content.appendChild(heading);
     const text = document.createElement('p');
-    text.textContent = 'Lorem ipsum color sit amet consectetur adipisicing elit. Voluptates, illo aliquam? Voluptatem sit dolore assumenda debitis qui veniam, iusto asperiores nemo, consequuntur quae et reprehenderit nihil, harum suscipit quos cupiditate ipsum in distinctio maiores dolorum id porro esse aspernatur! Cum sequi, a nemo quasi minus corrupti tempore laborum saepe porro!';
+    text.textContent = `Welcome to Odin's Kitchen, where flavor meets comfort! Indulge in our delicious, freshly prepared dishes made with the finest ingredients. Whether you're craving classic favorites or something new, our menu offers a variety of options for every taste. Join us for an unforgettable dining experience!`;
     content.appendChild(text);
 
 }

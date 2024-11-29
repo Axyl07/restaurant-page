@@ -1,7 +1,20 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins';
 }
+h1{
+    font-size: 4rem;
+    color: black;
+    background-color: bisque;
+    border: 5px solid black;
+    border-radius: 10px ;
+    padding: 5px 10px;
+    margin: 10px;
+
+
+}
+
 #content{
     gap: 25px;
     display: flex;
@@ -11,14 +24,23 @@
     width: 100vw;
     height: 100vh;
     background-image: url(./close-up-chicken-skewers-plate-with-sauce-chips.jpg);
-    background-size: 100vw 100vh;
+    background-size: cover;
+    background-position: bottom;
+    
 }
 #content>p{
-    font-size: 1.5rem;
+
+    border-radius: 10px;
+    border: 5px solid black;
+    padding: 15px;
+    color: black;
+    background-color: bisque;
+    font-size: 2rem;
     width: 50vw;
     height: auto;
 }
 nav{
+    background-color: rgb(252, 225, 168);
     padding: 15px;
     gap: 15px;
     display: flex;
@@ -26,5 +48,25 @@ nav{
     
 }
 nav>button{
+    background-color: beige;
+    padding: 5px 10px;
     font-size: 2rem;
+    border: 3px solid black;
+    border-radius: 10px;
+    transition: 0.1s ease-in;
+}
+nav>button:hover{
+    cursor: pointer;
+transform: scale(1.05);
+}
+nav>button:active{
+    transform: scale(0.95);
+}
+
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    font: size 25px;
+    justify-content: center;
 }

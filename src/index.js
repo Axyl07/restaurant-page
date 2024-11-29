@@ -6,7 +6,7 @@ import menufn from "./menu";
 
 
 load();
-alert("Helloo");
+
 
 const content = document.querySelector('#content');
 const home = document.querySelector('#home');
