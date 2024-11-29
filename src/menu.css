@@ -1,0 +1,54 @@
+.container{
+    height: fit-content;
+    width: fit-content;
+    margin: 25px;
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.foodItems{
+    gap: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+    height: fit-content;
+}
+.burger,.steak,.chicken,.salad{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 150px;
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 25px;
+    gap: 5px;
+}
+
+.burgerImg{
+    width: 100px;
+    height: 100px;
+    background-image: url(./icons/burger.png);
+    background-size: cover ;
+}
+.steakImg{
+    width: 100px;
+    height: 100px;
+    background-image: url(./icons/steak.png);
+    background-size: cover ;
+}
+.saladImg{
+    width: 100px;
+    height: 100px;
+    background-image: url(./icons/salad.png);
+    background-size: cover ;
+}
+.chickenImg{
+    width: 100px;
+    height: 100px;
+    background-image: url(./icons/fried-chicken.png);
+    background-size: cover ;
+}
